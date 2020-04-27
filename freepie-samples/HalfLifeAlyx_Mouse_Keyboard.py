@@ -21,17 +21,14 @@ import math, time
 
 # ACTIONS MAPPING
 
-triggerKey = Key.E
-
-systemKey = Key.Q
-
-menuKey = Key.T
-
-gripKey = Key.R
-
-rightHandToggleKey = Key.RightShift
-
-handUpKey = Key.V
+class ActionsMapping:
+	def __init__(self):
+		self.triggerKey = Key.E
+		self.systemKey = Key.Q
+		self.menuKey = Key.T
+		self.gripKey = Key.R
+		self.rightHandToggleKey = Key.RightShift
+		self.handUpKey = Key.V
 
 leftHandToggleKey = Key.LeftShift
 
